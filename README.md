@@ -21,7 +21,8 @@ Exemple
 code
 config/settings.py
 
-```# Application definition
+```python
+# Application definition
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -32,11 +33,13 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'static_pages_1',
 ]
+
 ```
 
 config/urls.py
 
-```from django.urls import path
+```python
+from django.urls import path
 from static_pages_1 import views
 
 urlpatterns = [
@@ -48,7 +51,8 @@ urlpatterns = [
 ```
 static_pages_1/views.py
 
-```from django.http import HttpResponse
+```python
+from django.http import HttpResponse
 
 nav = """
 <nav>
