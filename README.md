@@ -1,15 +1,18 @@
-Django Static Pages with no Templates
+# Django Static Pages With No Templates
+
 Create 4 web pages with no style, each page should have the following tags:
 
-nav with anchor tags for every page, use | as separator
-h1
-h2
-p
+1. nav with anchor tags for every page, use | as separator
+2. h1
+3. h2
+4. p
+
 Submit repo with markdown file with blocks of code for:
 
 views.py
 urls.py
 settings.py (INSTALLED_APPS only)
+
 Include screenshots for every page.
 
 Use only django.http.HttpResponse, for every page add any of these data (include name and values for every element using f strings with ol or ul tags):
@@ -17,8 +20,9 @@ Use only django.http.HttpResponse, for every page add any of these data (include
 3 variables with different data types
 a list of mixed data types of length 6
 a dictionary with string keys and different data types values of length 5
-Exemple
-code
+
+# Example Code
+
 config/settings.py
 
 ```python
@@ -144,16 +148,16 @@ def store(request):
     return HttpResponse(nav + content)
 ```
 
-Screenshots
+# Screenshots
 
-Home Page
+## Home Page
 <img width="1919" height="1079" alt="Django Site Without Template (1)" src="https://github.com/user-attachments/assets/b3898dda-d530-43a2-b2c3-5e4255ad8c56" />
 
-About Us Page
+## About Us Page
 <img width="1919" height="1079" alt="Django Site Without Template (2)" src="https://github.com/user-attachments/assets/5a18397c-d606-4450-be79-9468f46bbf33" />
 
-Events Page
+## Events Page
 <img width="1919" height="1079" alt="Django Site Without Template (3)" src="https://github.com/user-attachments/assets/5b6bd6d6-3cbd-49b7-99dd-76e3e9d4a63b" />
 
-Contact Us Page
+## Contact Us Page
 <img width="1919" height="1079" alt="Django Site Without Template (4)" src="https://github.com/user-attachments/assets/3e0aa0bf-bdfe-43c2-ab1d-c8e6a035e37e" />
