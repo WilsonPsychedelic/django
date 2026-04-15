@@ -9,17 +9,17 @@ Create 4 web pages with no style, each page should have the following tags:
 
 Submit repo with markdown file with blocks of code for:
 
-views.py
-urls.py
-settings.py (INSTALLED_APPS only)
+* views.py
+* urls.py
+* settings.py (INSTALLED_APPS only)
 
 Include screenshots for every page.
 
 Use only django.http.HttpResponse, for every page add any of these data (include name and values for every element using f strings with ol or ul tags):
 
-3 variables with different data types
-a list of mixed data types of length 6
-a dictionary with string keys and different data types values of length 5
+* 3 variables with different data types
+* a list of mixed data types of length 6
+* a dictionary with string keys and different data types values of length 5
 
 # Example Code
 
