@@ -21,7 +21,7 @@ Exemple
 code
 config/settings.py
 
-# Application definition
+'''# Application definition
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -32,9 +32,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'static_pages_1',
 ]
+'''
+
 config/urls.py
 
-from django.urls import path
+'''from django.urls import path
 from static_pages_1 import views
 
 urlpatterns = [
@@ -43,9 +45,10 @@ urlpatterns = [
     path('about/', views.about),
     path('store/', views.store),
 ]
+'''
 static_pages_1/views.py
 
-from django.http import HttpResponse
+'''from django.http import HttpResponse
 
 nav = """
 <nav>
@@ -135,6 +138,7 @@ def store(request):
     <p>Exchange system and premium items</p>
     """
     return HttpResponse(nav + content)
+'''
 
 Screenshots
 
